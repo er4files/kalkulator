@@ -3,5 +3,69 @@
 * {
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: #303136;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kalkulator {
+    background: #171717;
+    padding: 26px;
+    border-radius: 20px;
+}
+
+input {
+    width: 330px;
+    padding: 25px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 45px;
+    text-align: right;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+button {
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: #303136;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hasil {
+    width: 144px;
+    color: white;
+    background: orange;
+    font-weight: 700;
+}
+
+.main {
+    color: white;
+    background: orange;
+    font-weight: 400;
+}
+
+.operator {
+    color: white;
+    background: blueviolet;
 }
