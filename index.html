@@ -3,41 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Membuat halaman responsif terhadap berbagai ukuran layar -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Menetapkan judul halaman web -->
     <title>KalkulatorKu</title>
-    <link rel="stylesheet" href="style.css">   
+    <!-- Tautan ke stylesheet eksternal untuk styling -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Menetapkan ikon yang ditampilkan di tab browser-->
     <link href="asset/img/kal.png" rel="icon">
-    <link href="asset/img/kal.png" rel="apple-touch-icon">
 </head>
 <body>
+    <!-- Div container untuk seluruh konten -->
     <div class="container">
+        <!-- Div kalkulator -->
         <div class="kalkulator">
+            <!-- Judul kalkulator -->
             <h1>KalkulatorKu</h1>
+            <!-- Kotak input untuk menampilkan dan memasukkan nilai -->
             <input type="text" placeholder="0" id="inputbox">
+            <!-- Tombol untuk AC (All Clear), DE (Delete), % (Persentase), dan / (Pembagian) -->
             <div>
                 <button class="main">AC</button>
                 <button class="main">DE</button>
                 <button class="operator">%</button>
                 <button class="operator">/</button>
             </div>
+            <!-- Tombol untuk angka 7, 8, 9, dan * (Perkalian) -->
             <div>
                 <button>7</button>
                 <button>8</button>
                 <button>9</button>
                 <button class="operator">*</button>
             </div>
+            <!-- Tombol untuk angka 6, 5, 4, dan + (Penambahan) -->
             <div>
                 <button>6</button>
                 <button>5</button>
                 <button>4</button>
                 <button class="operator">+</button>
             </div>
+            <!-- Tombol untuk angka 3, 2, 1, dan - (Pengurangan) -->
             <div>
                 <button>3</button>
                 <button>2</button>
                 <button>1</button>
                 <button class="operator">-</button>
             </div>
+            <!-- Tombol untuk angka 0, titik desimal, dan = (Sama Dengan) -->
             <div>
                 <button>0</button>
                 <button>.</button>
@@ -45,6 +57,7 @@
             </div>
         </div>
     </div>
+    <!-- Tautan ke file JavaScript eksternal -->
     <script src="main.js"></script>
 </body>
 </html>
