@@ -4,7 +4,7 @@ Repositori Kalkulator berisi implementasi kalkulator sederhana menggunakan HTML,
 
 ## Preview
 
-[kalkulator.png]
+![Kalkulator](kalkulator.png)
 
 ## Fitur
 
@@ -25,7 +25,6 @@ Repositori Kalkulator berisi implementasi kalkulator sederhana menggunakan HTML,
 ## Kontribusi
 
 Kami menyambut kontribusi dari para pengembang untuk meningkatkan kalkulator ini. Jika Anda memiliki saran atau ingin melaporkan masalah, silakan buka [issue](https://github.com/username/Kalkulator/issues) atau kirimkan [pull request](https://github.com/username/Kalkulator/pulls).
-
 
 ---
 
